@@ -8,12 +8,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import com.example.demo.dto.AddStudentDto;
+import com.example.demo.dto.StudentDto;
+import com.example.demo.dto.UpdateStudentDto;
 import com.example.demo.exception.DataNotFoundException;
 import com.example.demo.model.Student;
 import com.example.demo.repo.StudentRepo;
-import com.example.demo.repo.dto.AddStudentDto;
-import com.example.demo.repo.dto.StudentDto;
-import com.example.demo.repo.dto.UpdateStudentDto;
 
 @Service
 public class StudentService {

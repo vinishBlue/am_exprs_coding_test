@@ -1,4 +1,4 @@
-package com.example.demo.repo.dto;
+package com.example.demo.dto;
 
 import java.time.format.DateTimeFormatter;
 

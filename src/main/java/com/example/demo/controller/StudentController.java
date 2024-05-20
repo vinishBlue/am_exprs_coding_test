@@ -1,6 +1,4 @@
-package com.example.demo.repo.controller;
-
-import javax.validation.Valid;
+package com.example.demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +10,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.demo.repo.dto.AddStudentDto;
-import com.example.demo.repo.dto.UpdateStudentDto;
+
+import com.example.demo.dto.AddStudentDto;
+import com.example.demo.dto.UpdateStudentDto;
 import com.example.demo.service.StudentService;
 
 @RestController
